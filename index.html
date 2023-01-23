@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S7L1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h3>Inserisci nome, cognome e data di nascita:</h3>
+    <div class="container">
+        <form id="form">
+            <input type="text" id="nome" placeholder="Nome"><br>
+            <input type="text" id="cognome" placeholder="Cognome"><br>
+            <input type="date" id="dataNascita" name="dataNascita"><br>
+            <button type="button" onclick="aggiungiUtente()">Registrati</button>
+        </form>
+    </div>
+    <h3>Utenti registrati:</h3>
+    <table id="tabella">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Data di nascita</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
